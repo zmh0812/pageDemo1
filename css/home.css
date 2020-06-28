@@ -1,0 +1,392 @@
+body{
+    min-width: 1000px;
+    min-height: 600px;
+}
+.clear{
+    clear: both;
+}
+/*logo区样式*/
+.logo{
+    height: 71px;
+}
+.logo_l{
+    float: left;
+    margin-top: 0px;
+}
+.logo_r{
+    float: right;
+    margin-top: 10px;
+}
+.img1{
+    background: url(../images/cimg01.png) no-repeat;
+    display: inline-block;
+    width: 161px;
+    height: 61px;
+}
+.img2{
+    background: url(../images/cimg02.png) no-repeat;
+    display: inline-block;
+    width: 197px;
+    height: 61px;
+    margin-left: 50px;
+}
+/*导航栏样式*/
+.nav{
+    background-color: #f7f7f7;
+    height: 50px;
+    min-width: 800px;
+    border-top: 1px #e6e6e6 solid;
+    border-bottom: 1px #e6e6e6 solid;
+    position: relative;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li{
+    float: left;
+    margin-left: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+}
+.search{
+    float: right;
+    margin-right: 100px;
+}
+.search>a{
+    text-decoration: none;
+    color: #757575;
+    line-height: 50px;
+}
+/*公司简介悬停样式*/
+#company{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.25);
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: none;
+    z-index: 2;
+}
+.nav1{
+    width: 160px;
+    border-right: 0.5px #757575 dotted;
+    margin-right: 50px;
+    display: inline-block;
+}
+.nav1 p{
+    margin: 0;
+    padding: 0;
+    color: #294999;
+    font-weight: 900;
+}
+.nav1 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav1 ul li{
+    height: 30px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    font-size: 14px;
+}
+.nav2{
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+}
+.nav2>img{
+    width: 100%;
+    height: auto;
+}
+.nav2>p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+/*回顶部按钮样式*/
+.goTop{
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+}
+/*图片区样式*/
+.banner>img, .pre>img, .next>img{
+    width: 100%;
+    height: auto;
+}
+.pre{
+    display: inline-block;
+    width: 2%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+.next{
+    display: inline-block;
+    width: 2%;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+/*内容部分样式*/
+/*1标题项样式*/
+.title{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px #dddddd solid;
+}
+.title>ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 20%;
+}
+.title>ul>li{
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.title>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+/*2圆圈目录样式*/
+.dic{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    position: relative;
+}
+.dic a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.icon0{
+    background: url(../images/cimg132.jpg) no-repeat;
+    display: block;
+    width: 375px;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.icon1{
+    background: url(../images/cimg115.png) no-repeat;
+    display: block;
+    width: 108px;
+    height: 99px;
+    position: absolute;
+    top: -20px;
+    left: 320px;
+}
+.msg1{
+    display: block;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: -15px;
+    left: 450px;
+}
+.icon2{
+    background: url(../images/cimg117.png) no-repeat;
+    display: block;
+    width: 134px;
+    height: 66px;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}
+.msg2{
+    display: block;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 65px;
+    left: 500px;
+}
+.icon3{
+    background: url(../images/cimg119.png) no-repeat;
+    display: block;
+    width: 150px;
+    height: 65px;
+    position: absolute;
+    top: 140px;
+    left: 360px;
+}
+.msg3{
+    display: block;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 145px;
+    left: 520px;
+}
+.icon4{
+    background: url(../images/cimg121.png) no-repeat;
+    display: block;
+    width: 154px;
+    height: 65px;
+    position: absolute;
+    top: 220px;
+    left: 357px;
+}
+.msg4{
+    display: block;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 225px;
+    left: 520px;
+}
+.icon5{
+    background: url(../images/cimg123.png) no-repeat;
+    display: block;
+    width: 139px;
+    height: 129px;
+    position: absolute;
+    top: 240px;
+    left: 352px;
+}
+.msg5{
+    display: block;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 315px;
+    left: 500px;
+}
+.card{
+    width: 35%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.textH{
+    margin: 0;
+    padding: 0;
+    color: #294999;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+}
+.textB1{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.textB2{
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    font-size: 12px;
+}
+.card>a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+/*尾部样式*/
+footer{
+    height: 300px;
+}
+/*1解决方案、联系方式、媒体方式部分样式*/
+.foot1{
+    width: 100%;
+    height: 260px;
+    background-color: #333333;
+    border-bottom: 0.5px #999999 solid;
+}
+.gap{
+    width: 8%;
+}
+.foot1 thead>tr>td{
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.foot1 tbody{
+    font-size: 12px;
+    color: #999999;
+    line-height: 25px;
+}
+.foot1 tbody td{
+    height: 25px;
+}
+.foot1 tbody td>a{
+    text-decoration: none;
+    color: #999999;
+}
+.first>td{
+    color: white;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px black solid;
+}
+.first .gap{
+    border-top: none;
+}
+.foot1 tbody img{
+    vertical-align: middle;
+}
+/*2友情链接样式*/
+.foot2{
+    height: 100px;
+    background-color: #333333;
+    font-size: 12px;
+}
+.foot2>p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+.foot2>ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.foot2>ul>li{
+    line-height: 25px;
+    margin-right: 25px;
+    float: left;
+}
+.foot2>ul>li>a{
+    text-decoration: none;
+    color: #999999;
+}
+/*3最后部分样式*/
+.foot3{
+    background-color: #2a2a2a;
+    height: 30px;
+}
+.foot3>p{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    display: inline-block;
+}
+.left{
+    color: white;
+    float: left;
+}
+.right{
+    color: #999999;
+    float: right;
+}
